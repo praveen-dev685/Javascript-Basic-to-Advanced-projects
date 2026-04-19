@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EMI Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <div class="main-section">
+      <div class="input-value">
+        <div class="input">
+          <label for="amount">Amount</label>
+          <input type="number" name="amount" id="amount">
+        </div>
+        <div class="input">
+          <label for="percentage">Paisa</label>
+          <input type="number" name="percentage" id="percentage">
+        </div>
+
+        <button id="calculate">Calculate</button>
+      </div>
+      <div class="output-value">
+
+        <div class="output">
+          <h2>Per Month</h2>
+          <h3 id="month">0</h3>
+        </div>
+       
+        <div class="output">
+          <h2>Per Day</h2>
+          <h3 id="day">0</h3>
+        </div>
+        <div class="output">
+          <h2>Per Week</h2>
+          <h3 id="week">0</h3>
+        </div>
+         <div class="output">
+          <h2>Finishing Month</h2>
+          <h3 id="finish">0</h3>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>
